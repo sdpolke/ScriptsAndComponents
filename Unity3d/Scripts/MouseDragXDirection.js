@@ -1,6 +1,6 @@
 
 //====================================================================================
-//== Script to drag and place 3D object in world space based on touch/mouse input
+//== Script to drag and place 3D object in world space based on touch/mouse input in X directions
 // License : WTFPL
 //===================================================================================
 #pragma strict
