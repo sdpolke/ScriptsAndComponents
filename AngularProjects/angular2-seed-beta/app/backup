@@ -1,0 +1,10 @@
+<input type="text" [value]="title" (input)="title= $event.target.value"/>
+    <input type="button" (click)="title = ''" value="clear"/>
+    <input type="text" [(ngModel)]="title"/>
+    Preview: {{ title }}
+    <courses></courses>
+    <favicon></favicon>
+    <authors></authors>
+    <button class="btn btn-primary" 
+    [class.active]="isActive" 
+    [style.backgroundColor]="isActive ? 'blue' : 'gray'" (click)="onClick($event)">Submit</button>
